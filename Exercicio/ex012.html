@@ -10,7 +10,7 @@
             padding: 0px;
         }
         body{
-            background-color: rgb(70, 142,236);
+            background-color: #8950f391;
             font: normal 15pt Arial;
         }
         header{
@@ -26,20 +26,25 @@
             padding: 15px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
         }
+        img{
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+        }
         footer{
             text-align: center;
         }
     </style>
 </head>
-<body>
+<body onload="carregar()">
     <header>
-        <h1>Titulo</h1>
+        <h1>Hora do Dia</h1>
     </header>
     <section>
-        <div id="horas">
-            <p></p>
+        <div id="msg">
         </div>
         <div id="foto">
+            <img src= 'Imagens/noite.jpg' alt="" id="imagem">
         </div>
     </section>
     <footer>
